@@ -487,10 +487,6 @@
         {
           "path": "components/ui/filtro-avancado.tsx",
           "type": "registry:ui"
-        },
-        {
-          "path": "lib/filtro-avancado.ts",
-          "type": "registry:lib"
         }
       ],
       "meta": {

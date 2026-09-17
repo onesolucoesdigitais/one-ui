@@ -2,7 +2,30 @@
 
 import { useEffect, useRef, useState } from 'react'
 import { Filter, Plus, X } from 'lucide-react'
-import type { CampoFiltro, Condicao } from '@/lib/filtro-avancado'
+
+export type CampoFiltro = {
+  key: string
+  label: string
+  opcoes: { value: string; label: string }[]
+}
+
+export type Condicao = {
+  id: string
+  campo: string
+  modo: 'mostrar' | 'ocultar'
+  valor: string
+}
+
+// Todas as condições combinam com E — cada uma precisa bater (ou não bater,
+// se o modo for "ocultar") pro item entrar na lista. `mapaCampos` traduz a
+// chave do campo na UI pro nome real da propriedade no item, quando forem diferentes.
+export function passaNosFiltros(item: Record<string, unknown>, condicoes: Condicao[], mapaCampos: Record<string, string> = {}): boolean {
+  return condicoes.every(c => {
+    if (!c.valor) return true // condição incompleta (campo/valor ainda não escolhido) não filtra nada
+    const bate = String(item[mapaCampos[c.campo] ?? c.campo] ?? '') === c.valor
+    return c.modo === 'mostrar' ? bate : !bate
+  })
+}
 
 // Painel de filtros combináveis (estilo Notion): cada condição é
 // campo + mostrar/ocultar + valor, e todas combinam com E.
