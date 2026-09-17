@@ -513,6 +513,21 @@
       "meta": {
         "source": "bpo-facil (One Soluções)"
       }
+    },
+    {
+      "name": "stat-card",
+      "type": "registry:ui",
+      "title": "Stat Card",
+      "description": "Card de indicador: rótulo, valor em destaque, detalhe e bolinha de cor pelo significado (neutro, positivo, negativo, alerta, info). Usa --success/--warning do projeto quando existem.",
+      "files": [
+        {
+          "path": "components/ui/stat-card.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "source": "Aura + Thimi (One Soluções)"
+      }
     }
   ]
 }

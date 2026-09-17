@@ -27,7 +27,7 @@ function LinhaColuna({ coluna, onToggle }: { coluna: ColunaEstado; onToggle: (ke
 }
 
 // Botão + popover pra escolher quais colunas aparecem numa tabela e em que
-// ordem — preferência salva por usuário+cliente+tela (ver useColunasConfiguraveis).
+// ordem. Guardar a preferência (por usuário, tela etc.) fica com quem usa.
 export function SeletorColunas({ colunas, onToggle, onReordenar }: {
   colunas: ColunaEstado[]
   onToggle: (key: string) => void
