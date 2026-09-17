@@ -441,6 +441,82 @@
       "meta": {
         "source": "rare-ui (MIT) - github.com/swamimalode07/rare-ui"
       }
+    },
+    {
+      "name": "date-range-picker",
+      "type": "registry:ui",
+      "title": "Date Range Picker",
+      "description": "Seletor de período em PT-BR: 2 calendários, atalhos (hoje, ontem, esta semana, mês passado...) e modo mês. Datas como string YYYY-MM-DD (sem bug de fuso).",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "components/ui/date-range-picker.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "source": "bpo-facil (One Soluções)"
+      }
+    },
+    {
+      "name": "th-redimensionavel",
+      "type": "registry:ui",
+      "title": "Th Redimensionável",
+      "description": "Cabeçalho de tabela (<th>) com largura ajustável arrastando a borda; só grava ao soltar o mouse.",
+      "files": [
+        {
+          "path": "components/ui/th-redimensionavel.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "source": "bpo-facil (One Soluções)"
+      }
+    },
+    {
+      "name": "filtro-avancado",
+      "type": "registry:ui",
+      "title": "Filtro Avançado",
+      "description": "Painel de filtros combináveis estilo Notion (campo + mostrar/ocultar + valor), com função passaNosFiltros para aplicar.",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "components/ui/filtro-avancado.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "lib/filtro-avancado.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "meta": {
+        "source": "bpo-facil (One Soluções)"
+      }
+    },
+    {
+      "name": "seletor-colunas",
+      "type": "registry:ui",
+      "title": "Seletor de Colunas",
+      "description": "Botão que abre lista para mostrar/ocultar e reordenar (arrastar) colunas de uma tabela.",
+      "dependencies": [
+        "lucide-react",
+        "@dnd-kit/core",
+        "@dnd-kit/sortable",
+        "@dnd-kit/utilities"
+      ],
+      "files": [
+        {
+          "path": "components/ui/seletor-colunas.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "source": "bpo-facil (One Soluções)"
+      }
     }
   ]
 }

@@ -35,6 +35,10 @@ npx shadcn@latest add onesolucoesdigitais/one-ui/<nome-do-componente>
 | notification-bell | Sino de notificação estilo iOS com contador | Rare UI |
 | step-player | Trilha de etapas estilo iOS com play/pause | Rare UI |
 | delete-button | Botão de excluir que pede confirmação no próprio botão, sem modal | Rare UI |
+| date-range-picker | Seletor de período PT-BR com atalhos e modo mês, sem bug de fuso | BPO Fácil |
+| th-redimensionavel | Cabeçalho de tabela com largura ajustável arrastando | BPO Fácil |
+| filtro-avancado | Filtros combináveis estilo Notion + função `passaNosFiltros` | BPO Fácil |
+| seletor-colunas | Mostrar/ocultar e reordenar colunas de tabela (drag) | BPO Fácil |
 
 Prévias ao vivo dos componentes do Rare UI: https://rareui.com/components
 
