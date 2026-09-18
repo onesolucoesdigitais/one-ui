@@ -38,6 +38,9 @@ npx shadcn@latest add onesolucoesdigitais/one-ui/<nome-do-componente>
 | date-range-picker | Seletor de período PT-BR com atalhos e modo mês, sem bug de fuso | BPO Fácil |
 | th-redimensionavel | Cabeçalho de tabela com largura ajustável arrastando | BPO Fácil |
 | filtro-avancado | Filtros combináveis estilo Notion + função `passaNosFiltros` | BPO Fácil |
+| whatsapp-button | Link pro WhatsApp com mensagem pronta (sólido, contorno ou bolha flutuante) | site One Soluções |
+| tour-overlay | Tour guiado passo a passo, destacando elementos da tela | Flow BPO |
+| anexo-button | Anexar, ver e excluir arquivo, com confirmação no próprio painel | Thimi |
 | notificacoes-bell | Sino com contador e painel de avisos (usado no menu do BPO Fácil) | Aura |
 | stat-card | Card de indicador com valor, detalhe e cor pelo significado (usado em Contas a Pagar/Receber do BPO Fácil) | Aura + Thimi |
 | seletor-colunas | Mostrar/ocultar e reordenar colunas de tabela (drag) | BPO Fácil |

@@ -546,6 +546,57 @@
       "meta": {
         "source": "Aura Lighting (One Soluções)"
       }
+    },
+    {
+      "name": "whatsapp-button",
+      "type": "registry:ui",
+      "title": "Botão de WhatsApp",
+      "description": "Link para o WhatsApp com a mensagem já escrita. Três estilos: sólido, contorno e flutuante (bolha no canto da tela). Exporta montarLinkWhatsApp(numero, mensagem).",
+      "files": [
+        {
+          "path": "components/ui/whatsapp-button.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "source": "site One Soluções"
+      }
+    },
+    {
+      "name": "tour-overlay",
+      "type": "registry:ui",
+      "title": "Tour guiado",
+      "description": "Escurece a tela, recorta o elemento com data-tour=\"<seletor>\" e mostra o passo. Passos e passo atual são controlados por quem usa; Esc encerra.",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "components/ui/tour-overlay.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "source": "Flow BPO (One Soluções)"
+      }
+    },
+    {
+      "name": "anexo-button",
+      "type": "registry:ui",
+      "title": "Botão de anexo",
+      "description": "Anexar, ver e excluir um arquivo, com confirmação de exclusão no próprio painel (sem window.confirm). Upload e remoção ficam com quem usa.",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "components/ui/anexo-button.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "source": "Thimi Arquitetura (One Soluções)"
+      }
     }
   ]
 }
