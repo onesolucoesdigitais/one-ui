@@ -528,6 +528,24 @@
       "meta": {
         "source": "Aura + Thimi (One Soluções)"
       }
+    },
+    {
+      "name": "notificacoes-bell",
+      "type": "registry:ui",
+      "title": "Notificações (sino)",
+      "description": "Sino com contador de não lidas e painel de avisos. Não busca nada sozinho: recebe a lista pronta. O painel abre em posição fixa calculada, então não é cortado por menus estreitos (prop lado: 'direita' | 'esquerda').",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "components/ui/notificacoes-bell.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "source": "Aura Lighting (One Soluções)"
+      }
     }
   ]
 }
