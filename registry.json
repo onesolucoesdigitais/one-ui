@@ -597,6 +597,46 @@
       "meta": {
         "source": "Thimi Arquitetura (One Soluções)"
       }
+    },
+    {
+      "name": "regras-senha",
+      "type": "registry:ui",
+      "title": "Regras de senha",
+      "description": "Lista \"Sua senha precisa ter:\" com ✓ que marca enquanto a pessoa digita (8+ caracteres, maiúscula, minúscula, número, especial). Traz senhaAtendeRegras/erroSenha/gerarSenhaForte. tema=\"auth\" (tela clara) ou \"app\" (segue o tema).",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "components/ui/regras-senha.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "lib/regras-senha.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "meta": {
+        "source": "BPO Fácil / Flow BPO (One Soluções)"
+      }
+    },
+    {
+      "name": "aviso-spam",
+      "type": "registry:ui",
+      "title": "Aviso de spam",
+      "description": "Caixa âmbar \"Não achou o e-mail? Olhe no Spam.\" para telas que dizem que um e-mail foi enviado (confirmação, esqueci a senha).",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "components/ui/aviso-spam.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "source": "BPO Fácil / Flow BPO (One Soluções)"
+      }
     }
   ]
 }
